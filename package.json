@@ -1,0 +1,19 @@
+{
+  "name": "chatapi",
+  "version": "1.0.0",
+  "description": "\"ChatApi\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Camargo Scheffler",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4"
+  }
+}
